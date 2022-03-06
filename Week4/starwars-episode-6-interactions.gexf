@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-02-16">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="DARTH VADER" label="DARTH VADER" />
+      <node id="JERJERROD" label="JERJERROD" />
+      <node id="BIB FORTUNA" label="BIB FORTUNA" />
+      <node id="C-3PO" label="C-3PO" />
+      <node id="JABBA" label="JABBA" />
+      <node id="LUKE" label="LUKE" />
+      <node id="BOUSHH" label="BOUSHH" />
+      <node id="HAN" label="HAN" />
+      <node id="LEIA" label="LEIA" />
+      <node id="LANDO" label="LANDO" />
+      <node id="EMPEROR" label="EMPEROR" />
+      <node id="YODA" label="YODA" />
+      <node id="OBI-WAN" label="OBI-WAN" />
+      <node id="MON MOTHMA" label="MON MOTHMA" />
+      <node id="ADMIRAL ACKBAR" label="ADMIRAL ACKBAR" />
+      <node id="PIETT" label="PIETT" />
+      <node id="WEDGE" label="WEDGE" />
+      <node id="ANAKIN" label="ANAKIN" />
+    </nodes>
+    <edges>
+      <edge source="DARTH VADER" target="JERJERROD" id="0" weight="1" />
+      <edge source="DARTH VADER" target="EMPEROR" id="1" weight="5" />
+      <edge source="DARTH VADER" target="PIETT" id="2" weight="1" />
+      <edge source="DARTH VADER" target="LUKE" id="3" weight="5" />
+      <edge source="DARTH VADER" target="ANAKIN" id="4" weight="1" />
+      <edge source="BIB FORTUNA" target="C-3PO" id="5" weight="2" />
+      <edge source="BIB FORTUNA" target="LUKE" id="6" weight="1" />
+      <edge source="BIB FORTUNA" target="JABBA" id="7" weight="1" />
+      <edge source="C-3PO" target="JABBA" id="8" weight="3" />
+      <edge source="C-3PO" target="LUKE" id="9" weight="10" />
+      <edge source="C-3PO" target="BOUSHH" id="10" weight="2" />
+      <edge source="C-3PO" target="HAN" id="11" weight="18" />
+      <edge source="C-3PO" target="LEIA" id="12" weight="15" />
+      <edge source="C-3PO" target="LANDO" id="13" weight="1" />
+      <edge source="C-3PO" target="MON MOTHMA" id="14" weight="1" />
+      <edge source="C-3PO" target="ADMIRAL ACKBAR" id="15" weight="1" />
+      <edge source="JABBA" target="LUKE" id="16" weight="2" />
+      <edge source="JABBA" target="BOUSHH" id="17" weight="1" />
+      <edge source="LUKE" target="HAN" id="18" weight="13" />
+      <edge source="LUKE" target="LEIA" id="19" weight="8" />
+      <edge source="LUKE" target="LANDO" id="20" weight="4" />
+      <edge source="LUKE" target="YODA" id="21" weight="1" />
+      <edge source="LUKE" target="OBI-WAN" id="22" weight="1" />
+      <edge source="LUKE" target="MON MOTHMA" id="23" weight="1" />
+      <edge source="LUKE" target="ADMIRAL ACKBAR" id="24" weight="1" />
+      <edge source="LUKE" target="EMPEROR" id="25" weight="3" />
+      <edge source="LUKE" target="ANAKIN" id="26" weight="1" />
+      <edge source="BOUSHH" target="HAN" id="27" weight="1" />
+      <edge source="BOUSHH" target="LEIA" id="28" weight="1" />
+      <edge source="HAN" target="LEIA" id="29" weight="18" />
+      <edge source="HAN" target="LANDO" id="30" weight="5" />
+      <edge source="HAN" target="MON MOTHMA" id="31" weight="1" />
+      <edge source="HAN" target="ADMIRAL ACKBAR" id="32" weight="1" />
+      <edge source="LEIA" target="LANDO" id="33" weight="2" />
+      <edge source="LEIA" target="MON MOTHMA" id="34" weight="1" />
+      <edge source="LEIA" target="ADMIRAL ACKBAR" id="35" weight="1" />
+      <edge source="LANDO" target="MON MOTHMA" id="36" weight="1" />
+      <edge source="LANDO" target="ADMIRAL ACKBAR" id="37" weight="5" />
+      <edge source="LANDO" target="WEDGE" id="38" weight="6" />
+      <edge source="MON MOTHMA" target="ADMIRAL ACKBAR" id="39" weight="1" />
+      <edge source="ADMIRAL ACKBAR" target="WEDGE" id="40" weight="1" />
+    </edges>
+  </graph>
+</gexf>

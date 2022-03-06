@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-02-16">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="EMPEROR" label="EMPEROR" />
+      <node id="SENATOR ASK AAK" label="SENATOR ASK AAK" />
+      <node id="ORN FREE TAA" label="ORN FREE TAA" />
+      <node id="MACE WINDU" label="MACE WINDU" />
+      <node id="YODA" label="YODA" />
+      <node id="KI-ADI-MUNDI" label="KI-ADI-MUNDI" />
+      <node id="BAIL ORGANA" label="BAIL ORGANA" />
+      <node id="JAR JAR" label="JAR JAR" />
+      <node id="OBI-WAN" label="OBI-WAN" />
+      <node id="ANAKIN" label="ANAKIN" />
+      <node id="CAPTAIN TYPHO" label="CAPTAIN TYPHO" />
+      <node id="PADME" label="PADME" />
+      <node id="PK-4" label="PK-4" />
+      <node id="SIO BIBBLE" label="SIO BIBBLE" />
+      <node id="SOLA" label="SOLA" />
+      <node id="JOBAL" label="JOBAL" />
+      <node id="RUWEE" label="RUWEE" />
+      <node id="TAUN WE" label="TAUN WE" />
+      <node id="LAMA SU" label="LAMA SU" />
+      <node id="BOBA FETT" label="BOBA FETT" />
+      <node id="JANGO FETT" label="JANGO FETT" />
+      <node id="WATTO" label="WATTO" />
+      <node id="C-3PO" label="C-3PO" />
+      <node id="OWEN" label="OWEN" />
+      <node id="BERU" label="BERU" />
+      <node id="CLIEGG" label="CLIEGG" />
+      <node id="SHMI" label="SHMI" />
+      <node id="COUNT DOOKU" label="COUNT DOOKU" />
+      <node id="POGGLE" label="POGGLE" />
+      <node id="SUN RIT" label="SUN RIT" />
+      <node id="NUTE GUNRAY" label="NUTE GUNRAY" />
+      <node id="PLO KOON" label="PLO KOON" />
+    </nodes>
+    <edges>
+      <edge source="EMPEROR" target="SENATOR ASK AAK" id="0" weight="2" />
+      <edge source="EMPEROR" target="ORN FREE TAA" id="1" weight="2" />
+      <edge source="EMPEROR" target="MACE WINDU" id="2" weight="2" />
+      <edge source="EMPEROR" target="YODA" id="3" weight="2" />
+      <edge source="EMPEROR" target="KI-ADI-MUNDI" id="4" weight="1" />
+      <edge source="EMPEROR" target="BAIL ORGANA" id="5" weight="2" />
+      <edge source="EMPEROR" target="OBI-WAN" id="6" weight="1" />
+      <edge source="EMPEROR" target="JAR JAR" id="7" weight="2" />
+      <edge source="EMPEROR" target="COUNT DOOKU" id="8" weight="1" />
+      <edge source="SENATOR ASK AAK" target="ORN FREE TAA" id="9" weight="1" />
+      <edge source="SENATOR ASK AAK" target="OBI-WAN" id="10" weight="1" />
+      <edge source="SENATOR ASK AAK" target="BAIL ORGANA" id="11" weight="1" />
+      <edge source="SENATOR ASK AAK" target="YODA" id="12" weight="1" />
+      <edge source="SENATOR ASK AAK" target="MACE WINDU" id="13" weight="1" />
+      <edge source="SENATOR ASK AAK" target="JAR JAR" id="14" weight="1" />
+      <edge source="ORN FREE TAA" target="JAR JAR" id="15" weight="1" />
+      <edge source="MACE WINDU" target="YODA" id="16" weight="8" />
+      <edge source="MACE WINDU" target="KI-ADI-MUNDI" id="17" weight="1" />
+      <edge source="MACE WINDU" target="BAIL ORGANA" id="18" weight="2" />
+      <edge source="MACE WINDU" target="OBI-WAN" id="19" weight="4" />
+      <edge source="MACE WINDU" target="JAR JAR" id="20" weight="1" />
+      <edge source="MACE WINDU" target="ANAKIN" id="21" weight="1" />
+      <edge source="MACE WINDU" target="PADME" id="22" weight="2" />
+      <edge source="MACE WINDU" target="COUNT DOOKU" id="23" weight="2" />
+      <edge source="YODA" target="KI-ADI-MUNDI" id="24" weight="1" />
+      <edge source="YODA" target="BAIL ORGANA" id="25" weight="2" />
+      <edge source="YODA" target="OBI-WAN" id="26" weight="5" />
+      <edge source="YODA" target="JAR JAR" id="27" weight="1" />
+      <edge source="YODA" target="COUNT DOOKU" id="28" weight="2" />
+      <edge source="YODA" target="PADME" id="29" weight="1" />
+      <edge source="YODA" target="ANAKIN" id="30" weight="1" />
+      <edge source="KI-ADI-MUNDI" target="BAIL ORGANA" id="31" weight="1" />
+      <edge source="KI-ADI-MUNDI" target="PLO KOON" id="32" weight="1" />
+      <edge source="BAIL ORGANA" target="OBI-WAN" id="33" weight="1" />
+      <edge source="BAIL ORGANA" target="JAR JAR" id="34" weight="1" />
+      <edge source="JAR JAR" target="OBI-WAN" id="35" weight="3" />
+      <edge source="JAR JAR" target="ANAKIN" id="36" weight="3" />
+      <edge source="JAR JAR" target="CAPTAIN TYPHO" id="37" weight="1" />
+      <edge source="JAR JAR" target="PADME" id="38" weight="1" />
+      <edge source="OBI-WAN" target="ANAKIN" id="39" weight="13" />
+      <edge source="OBI-WAN" target="CAPTAIN TYPHO" id="40" weight="2" />
+      <edge source="OBI-WAN" target="PK-4" id="41" weight="1" />
+      <edge source="OBI-WAN" target="TAUN WE" id="42" weight="5" />
+      <edge source="OBI-WAN" target="LAMA SU" id="43" weight="6" />
+      <edge source="OBI-WAN" target="BOBA FETT" id="44" weight="1" />
+      <edge source="OBI-WAN" target="JANGO FETT" id="45" weight="1" />
+      <edge source="OBI-WAN" target="PADME" id="46" weight="2" />
+      <edge source="OBI-WAN" target="SUN RIT" id="47" weight="1" />
+      <edge source="OBI-WAN" target="POGGLE" id="48" weight="1" />
+      <edge source="OBI-WAN" target="NUTE GUNRAY" id="49" weight="1" />
+      <edge source="OBI-WAN" target="COUNT DOOKU" id="50" weight="2" />
+      <edge source="ANAKIN" target="CAPTAIN TYPHO" id="51" weight="2" />
+      <edge source="ANAKIN" target="PADME" id="52" weight="16" />
+      <edge source="ANAKIN" target="SIO BIBBLE" id="53" weight="1" />
+      <edge source="ANAKIN" target="SOLA" id="54" weight="1" />
+      <edge source="ANAKIN" target="JOBAL" id="55" weight="1" />
+      <edge source="ANAKIN" target="RUWEE" id="56" weight="3" />
+      <edge source="ANAKIN" target="WATTO" id="57" weight="1" />
+      <edge source="ANAKIN" target="C-3PO" id="58" weight="3" />
+      <edge source="ANAKIN" target="OWEN" id="59" weight="3" />
+      <edge source="ANAKIN" target="BERU" id="60" weight="1" />
+      <edge source="ANAKIN" target="CLIEGG" id="61" weight="2" />
+      <edge source="ANAKIN" target="SHMI" id="62" weight="1" />
+      <edge source="ANAKIN" target="SUN RIT" id="63" weight="1" />
+      <edge source="ANAKIN" target="POGGLE" id="64" weight="1" />
+      <edge source="ANAKIN" target="NUTE GUNRAY" id="65" weight="1" />
+      <edge source="ANAKIN" target="COUNT DOOKU" id="66" weight="2" />
+      <edge source="PADME" target="SOLA" id="67" weight="1" />
+      <edge source="PADME" target="JOBAL" id="68" weight="1" />
+      <edge source="PADME" target="RUWEE" id="69" weight="1" />
+      <edge source="PADME" target="C-3PO" id="70" weight="5" />
+      <edge source="PADME" target="OWEN" id="71" weight="4" />
+      <edge source="PADME" target="BERU" id="72" weight="1" />
+      <edge source="PADME" target="CLIEGG" id="73" weight="2" />
+      <edge source="PADME" target="COUNT DOOKU" id="74" weight="3" />
+      <edge source="PADME" target="SUN RIT" id="75" weight="1" />
+      <edge source="PADME" target="POGGLE" id="76" weight="1" />
+      <edge source="PADME" target="NUTE GUNRAY" id="77" weight="1" />
+      <edge source="SOLA" target="JOBAL" id="78" weight="2" />
+      <edge source="SOLA" target="RUWEE" id="79" weight="1" />
+      <edge source="JOBAL" target="RUWEE" id="80" weight="1" />
+      <edge source="TAUN WE" target="LAMA SU" id="81" weight="2" />
+      <edge source="TAUN WE" target="BOBA FETT" id="82" weight="2" />
+      <edge source="TAUN WE" target="JANGO FETT" id="83" weight="1" />
+      <edge source="BOBA FETT" target="JANGO FETT" id="84" weight="3" />
+      <edge source="JANGO FETT" target="COUNT DOOKU" id="85" weight="1" />
+      <edge source="C-3PO" target="OWEN" id="86" weight="2" />
+      <edge source="C-3PO" target="BERU" id="87" weight="1" />
+      <edge source="C-3PO" target="CLIEGG" id="88" weight="1" />
+      <edge source="OWEN" target="BERU" id="89" weight="1" />
+      <edge source="OWEN" target="CLIEGG" id="90" weight="2" />
+      <edge source="BERU" target="CLIEGG" id="91" weight="1" />
+      <edge source="COUNT DOOKU" target="SUN RIT" id="92" weight="1" />
+      <edge source="COUNT DOOKU" target="POGGLE" id="93" weight="1" />
+      <edge source="COUNT DOOKU" target="NUTE GUNRAY" id="94" weight="1" />
+      <edge source="POGGLE" target="SUN RIT" id="95" weight="2" />
+      <edge source="POGGLE" target="NUTE GUNRAY" id="96" weight="2" />
+      <edge source="SUN RIT" target="NUTE GUNRAY" id="97" weight="2" />
+    </edges>
+  </graph>
+</gexf>

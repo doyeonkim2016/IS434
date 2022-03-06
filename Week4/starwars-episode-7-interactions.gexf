@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-02-16">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="LOR SAN TEKKA" label="LOR SAN TEKKA" />
+      <node id="POE" label="POE" />
+      <node id="KYLO REN" label="KYLO REN" />
+      <node id="CAPTAIN PHASMA" label="CAPTAIN PHASMA" />
+      <node id="FINN" label="FINN" />
+      <node id="GENERAL HUX" label="GENERAL HUX" />
+      <node id="REY" label="REY" />
+      <node id="UNKAR PLUTT" label="UNKAR PLUTT" />
+      <node id="LIEUTENANT MITAKA" label="LIEUTENANT MITAKA" />
+      <node id="HAN" label="HAN" />
+      <node id="BALA-TIK" label="BALA-TIK" />
+      <node id="SNOKE" label="SNOKE" />
+      <node id="MAZ" label="MAZ" />
+      <node id="BB-8" label="BB-8" />
+      <node id="C-3PO" label="C-3PO" />
+      <node id="LEIA" label="LEIA" />
+      <node id="SNAP" label="SNAP" />
+      <node id="ADMIRAL ACKBAR" label="ADMIRAL ACKBAR" />
+      <node id="ADMIRAL STATURA" label="ADMIRAL STATURA" />
+      <node id="COLONEL DATOO" label="COLONEL DATOO" />
+      <node id="ELLO ASTY" label="ELLO ASTY" />
+      <node id="JESS" label="JESS" />
+      <node id="NIV LEK" label="NIV LEK" />
+      <node id="YOLO ZIFF" label="YOLO ZIFF" />
+    </nodes>
+    <edges>
+      <edge source="LOR SAN TEKKA" target="POE" id="0" weight="3" />
+      <edge source="LOR SAN TEKKA" target="KYLO REN" id="1" weight="1" />
+      <edge source="LOR SAN TEKKA" target="CAPTAIN PHASMA" id="2" weight="1" />
+      <edge source="POE" target="KYLO REN" id="3" weight="2" />
+      <edge source="POE" target="CAPTAIN PHASMA" id="4" weight="1" />
+      <edge source="POE" target="FINN" id="5" weight="11" />
+      <edge source="POE" target="HAN" id="6" weight="2" />
+      <edge source="POE" target="LEIA" id="7" weight="3" />
+      <edge source="POE" target="SNAP" id="8" weight="2" />
+      <edge source="POE" target="ADMIRAL ACKBAR" id="9" weight="1" />
+      <edge source="POE" target="C-3PO" id="10" weight="2" />
+      <edge source="POE" target="ADMIRAL STATURA" id="11" weight="1" />
+      <edge source="POE" target="ELLO ASTY" id="12" weight="3" />
+      <edge source="POE" target="NIV LEK" id="13" weight="2" />
+      <edge source="POE" target="JESS" id="14" weight="2" />
+      <edge source="POE" target="YOLO ZIFF" id="15" weight="1" />
+      <edge source="KYLO REN" target="CAPTAIN PHASMA" id="16" weight="1" />
+      <edge source="KYLO REN" target="GENERAL HUX" id="17" weight="5" />
+      <edge source="KYLO REN" target="LIEUTENANT MITAKA" id="18" weight="2" />
+      <edge source="KYLO REN" target="SNOKE" id="19" weight="2" />
+      <edge source="KYLO REN" target="REY" id="20" weight="4" />
+      <edge source="KYLO REN" target="HAN" id="21" weight="3" />
+      <edge source="KYLO REN" target="FINN" id="22" weight="2" />
+      <edge source="CAPTAIN PHASMA" target="FINN" id="23" weight="3" />
+      <edge source="CAPTAIN PHASMA" target="GENERAL HUX" id="24" weight="1" />
+      <edge source="CAPTAIN PHASMA" target="HAN" id="25" weight="2" />
+      <edge source="FINN" target="REY" id="26" weight="29" />
+      <edge source="FINN" target="HAN" id="27" weight="23" />
+      <edge source="FINN" target="BALA-TIK" id="28" weight="1" />
+      <edge source="FINN" target="MAZ" id="29" weight="2" />
+      <edge source="FINN" target="LEIA" id="30" weight="3" />
+      <edge source="FINN" target="SNAP" id="31" weight="1" />
+      <edge source="FINN" target="ADMIRAL ACKBAR" id="32" weight="1" />
+      <edge source="FINN" target="C-3PO" id="33" weight="1" />
+      <edge source="FINN" target="ADMIRAL STATURA" id="34" weight="1" />
+      <edge source="GENERAL HUX" target="LIEUTENANT MITAKA" id="35" weight="1" />
+      <edge source="GENERAL HUX" target="SNOKE" id="36" weight="3" />
+      <edge source="GENERAL HUX" target="COLONEL DATOO" id="37" weight="1" />
+      <edge source="REY" target="UNKAR PLUTT" id="38" weight="2" />
+      <edge source="REY" target="HAN" id="39" weight="17" />
+      <edge source="REY" target="BALA-TIK" id="40" weight="1" />
+      <edge source="REY" target="MAZ" id="41" weight="2" />
+      <edge source="REY" target="BB-8" id="42" weight="1" />
+      <edge source="HAN" target="BALA-TIK" id="43" weight="2" />
+      <edge source="HAN" target="MAZ" id="44" weight="4" />
+      <edge source="HAN" target="C-3PO" id="45" weight="3" />
+      <edge source="HAN" target="LEIA" id="46" weight="5" />
+      <edge source="HAN" target="SNAP" id="47" weight="1" />
+      <edge source="HAN" target="ADMIRAL ACKBAR" id="48" weight="1" />
+      <edge source="HAN" target="ADMIRAL STATURA" id="49" weight="1" />
+      <edge source="C-3PO" target="LEIA" id="50" weight="5" />
+      <edge source="C-3PO" target="SNAP" id="51" weight="1" />
+      <edge source="C-3PO" target="ADMIRAL ACKBAR" id="52" weight="1" />
+      <edge source="C-3PO" target="ADMIRAL STATURA" id="53" weight="2" />
+      <edge source="LEIA" target="SNAP" id="54" weight="1" />
+      <edge source="LEIA" target="ADMIRAL ACKBAR" id="55" weight="1" />
+      <edge source="LEIA" target="ADMIRAL STATURA" id="56" weight="2" />
+      <edge source="SNAP" target="ADMIRAL ACKBAR" id="57" weight="1" />
+      <edge source="SNAP" target="ADMIRAL STATURA" id="58" weight="1" />
+      <edge source="SNAP" target="JESS" id="59" weight="1" />
+      <edge source="ADMIRAL ACKBAR" target="ADMIRAL STATURA" id="60" weight="1" />
+      <edge source="ELLO ASTY" target="NIV LEK" id="61" weight="2" />
+      <edge source="ELLO ASTY" target="JESS" id="62" weight="2" />
+      <edge source="ELLO ASTY" target="YOLO ZIFF" id="63" weight="1" />
+      <edge source="JESS" target="NIV LEK" id="64" weight="2" />
+      <edge source="JESS" target="YOLO ZIFF" id="65" weight="1" />
+      <edge source="NIV LEK" target="YOLO ZIFF" id="66" weight="1" />
+    </edges>
+  </graph>
+</gexf>

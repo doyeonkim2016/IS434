@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-02-16">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="CAMIE" label="CAMIE" />
+      <node id="LUKE" label="LUKE" />
+      <node id="BIGGS" label="BIGGS" />
+      <node id="DARTH VADER" label="DARTH VADER" />
+      <node id="LEIA" label="LEIA" />
+      <node id="BERU" label="BERU" />
+      <node id="OWEN" label="OWEN" />
+      <node id="C-3PO" label="C-3PO" />
+      <node id="OBI-WAN" label="OBI-WAN" />
+      <node id="MOTTI" label="MOTTI" />
+      <node id="TARKIN" label="TARKIN" />
+      <node id="HAN" label="HAN" />
+      <node id="GREEDO" label="GREEDO" />
+      <node id="JABBA" label="JABBA" />
+      <node id="DODONNA" label="DODONNA" />
+      <node id="GOLD LEADER" label="GOLD LEADER" />
+      <node id="WEDGE" label="WEDGE" />
+      <node id="RED LEADER" label="RED LEADER" />
+      <node id="RED TEN" label="RED TEN" />
+    </nodes>
+    <edges>
+      <edge source="CAMIE" target="LUKE" id="0" weight="2" />
+      <edge source="CAMIE" target="BIGGS" id="1" weight="2" />
+      <edge source="LUKE" target="BIGGS" id="2" weight="4" />
+      <edge source="LUKE" target="BERU" id="3" weight="3" />
+      <edge source="LUKE" target="OWEN" id="4" weight="3" />
+      <edge source="LUKE" target="C-3PO" id="5" weight="18" />
+      <edge source="LUKE" target="LEIA" id="6" weight="17" />
+      <edge source="LUKE" target="OBI-WAN" id="7" weight="19" />
+      <edge source="LUKE" target="HAN" id="8" weight="26" />
+      <edge source="LUKE" target="DODONNA" id="9" weight="1" />
+      <edge source="LUKE" target="GOLD LEADER" id="10" weight="1" />
+      <edge source="LUKE" target="WEDGE" id="11" weight="2" />
+      <edge source="LUKE" target="RED LEADER" id="12" weight="3" />
+      <edge source="LUKE" target="RED TEN" id="13" weight="1" />
+      <edge source="BIGGS" target="LEIA" id="14" weight="1" />
+      <edge source="BIGGS" target="RED LEADER" id="15" weight="3" />
+      <edge source="BIGGS" target="C-3PO" id="16" weight="1" />
+      <edge source="BIGGS" target="WEDGE" id="17" weight="2" />
+      <edge source="BIGGS" target="GOLD LEADER" id="18" weight="1" />
+      <edge source="DARTH VADER" target="LEIA" id="19" weight="1" />
+      <edge source="DARTH VADER" target="MOTTI" id="20" weight="1" />
+      <edge source="DARTH VADER" target="TARKIN" id="21" weight="7" />
+      <edge source="DARTH VADER" target="OBI-WAN" id="22" weight="1" />
+      <edge source="LEIA" target="C-3PO" id="23" weight="6" />
+      <edge source="LEIA" target="BERU" id="24" weight="1" />
+      <edge source="LEIA" target="OBI-WAN" id="25" weight="1" />
+      <edge source="LEIA" target="MOTTI" id="26" weight="1" />
+      <edge source="LEIA" target="TARKIN" id="27" weight="1" />
+      <edge source="LEIA" target="HAN" id="28" weight="13" />
+      <edge source="LEIA" target="RED LEADER" id="29" weight="1" />
+      <edge source="BERU" target="OWEN" id="30" weight="3" />
+      <edge source="BERU" target="C-3PO" id="31" weight="2" />
+      <edge source="OWEN" target="C-3PO" id="32" weight="2" />
+      <edge source="C-3PO" target="OBI-WAN" id="33" weight="6" />
+      <edge source="C-3PO" target="HAN" id="34" weight="6" />
+      <edge source="C-3PO" target="RED LEADER" id="35" weight="1" />
+      <edge source="OBI-WAN" target="HAN" id="36" weight="9" />
+      <edge source="MOTTI" target="TARKIN" id="37" weight="2" />
+      <edge source="HAN" target="GREEDO" id="38" weight="1" />
+      <edge source="HAN" target="JABBA" id="39" weight="1" />
+      <edge source="DODONNA" target="GOLD LEADER" id="40" weight="1" />
+      <edge source="DODONNA" target="WEDGE" id="41" weight="1" />
+      <edge source="GOLD LEADER" target="WEDGE" id="42" weight="1" />
+      <edge source="GOLD LEADER" target="RED LEADER" id="43" weight="1" />
+      <edge source="WEDGE" target="RED LEADER" id="44" weight="3" />
+      <edge source="RED LEADER" target="RED TEN" id="45" weight="1" />
+    </edges>
+  </graph>
+</gexf>
